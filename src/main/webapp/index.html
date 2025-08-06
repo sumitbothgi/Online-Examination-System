@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="ISO-8859-1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<title>Home Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style type="text/css">
+
+body{
+	margin: 0;
+    padding: 0;
+}
+#navbarSupportedContent{
+	padding-left: 250px;
+	color: #DC143C;
+	font-size: 26px;
+}
+
+#nav1{
+	  position: fixed;
+      top: 0;
+      width: 100%;
+      height:100px;
+      background-color: #333;
+      padding: 10px;
+      color: white;
+      text-align: center;
+      z-index: 10;
+}
+
+.navbar-brand,.nav-link{
+color: #DC143C;
+font-size: 32px;
+}
+.nav-link{
+color: white;
+font-size: 18px;
+
+}
+
+.head{
+color: white;
+padding-left: 55px;
+font-size: 28px;
+display: flex;
+flex-direction: row;
+}
+#home1 {
+	color: white;
+}
+#home1:hover {
+	color: white;
+}
+#home2 {
+	color: white;
+}
+#home2:hover {
+	color: white;
+}
+#home3 {
+	color: white;
+}
+#home3:hover {
+	color: white;
+}
+#home4 {
+	color: white;
+}#home4:hover {
+	color: white;
+}
+
+#div1{
+  color:#DC143C;
+  padding-left: 40px;
+
+}
+.head1{
+  margin-left: 27px;
+  padding:5px 16px;;
+  font-family:Helvetica Neue;
+  font-weight: bold;
+  color: #DC143C;
+  	 box-shadow: 0 0 20px white;
+  	 border-radius: 10px;
+}
+.head1:hover
+{
+	color: white;
+}
+  #icon:hover
+    {
+    	box-shadow: 0 0 20px #DC143C;
+    } 
+
+
+.content{
+	display: flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+ 	text-align: center;
+
+}
+
+.data{
+ 	height: 300px;
+ 	width: 300px;
+ 	box-shadow: 0 0 10px 10x black;
+ 	margin: 50px;
+}
+hr{
+	height: 2px;
+	width: 90%;
+}
+h1{
+	color:#DC143C;
+}
+.navbreak{
+	padding-top: 110px;
+	padding-left: 1000px;
+}
+
+#mainCard{
+	height: 140vh;
+	width: 90%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap:20px;
+	  padding-bottom: 30px;
+}
+.cardd{
+	height: 330px;
+	width: 280px;
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);	
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	overflow: hidden;
+    transition: transform 0.3s ease;
+  
+}
+.cardd:hover{
+	transform: scale(1.1);
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.sec1{
+	height: 270px;
+	width: 100%;
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap:10px;
+	background-color: #dcdcdc;
+}
+.foot1{
+	height: 300px;
+	width: 150px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 10px;
+}
+.sec2,.sec3{
+ 	height: 360px;
+	width: 100%;
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	padding-left: 260px;
+	padding-top: 40px;
+	
+}
+.foot2,.foot3{	
+	height: 320px;
+	width: 270px;
+	color: white;
+	padding-right: 30px;
+	text-align: left;
+}
+.foot2 p,.foot3 p{
+color: grey;
+}
+.foot2 p:hover,.foot3 p:hover {
+	color: white;
+	font-size: 20px;
+}
+.btn1{
+ 	  display: inline-block;
+      padding: 5px 15px;
+      font-size: 10px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      color: white;
+      background-color:#DC143C ;
+      border-radius: 7px;
+      border-color: #fff;
+      transition: background-color 0.3s, color 0.3s;
+}
+.btn1:hover {
+	 background-color: #3498db;
+      color: #fff;
+      border-color: #fff;
+}
+#foot3id{
+	height: 320px;
+	width: 600px;
+	padding-left: 60px;
+}
+#logofoot3id{
+	display:flex;
+	align-items:center;
+	height: 90px;
+	width: 400px;
+	justify-content: space-around;
+	
+}
+#foot4{
+	height: 100px;
+	width: 100%;
+	background-color: #000000;
+	color: white;
+	padding-bottom: 20px;
+}
+.footdiv{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#navbtn1, #navbtn2{
+margin-left: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<nav id="nav1" class="navbar navbar-expand-lg">
+  <div id="div1" class="container-fluid">
+	<i class="fa-brands fa-twitter" style="color:white; font-size:70px;" id="icon" ></i> <h1 class="head1">QuizZinex</h1>
+	<br>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       		<!-- <li class="nav-item dropdown">
+         		 <a class="nav-link dropdown-toggle" id="home1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+          			 Academic Resource
+          		</a>
+          		<ul class="dropdown-menu">
+           			 <li><a class="dropdown-item" href="studentLogin.jsp">Aptitude</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">Data Interpretation</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">Verbal Reasoning</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">Non Verbal Reasoning</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">Programming</a></li>
+           			 <li><a class="dropdown-item" href="studentLogin.jsp">Puzzle</a></li>
+         	    </ul>
+        	 </li> --> 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  id="home2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Engineering
+          </a>
+          		<ul class="dropdown-menu">
+           			 <li><a class="dropdown-item" href="studentLogin.jsp">Computer Engineering</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">Civil Engineering</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">Mechanical Engineering</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">Electrical Engineering</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">E&TC Engineering</a></li>
+           			 <li><a class="dropdown-item" href="studentLogin.jsp">Bio-technology</a></li>
+         	    </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"  id="home3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Online Test	
+          </a>
+          		<ul class="dropdown-menu">
+           			 <li><a class="dropdown-item" href="studentLogin.jsp">Aptitude Test</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">Data Interpretation Test</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">MAptitude Test</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp">Verbal Reasoning Test</a></li>
+            		 <li><a class="dropdown-item" href="studentLogin.jsp"> Test</a></li>
+         	    </ul>
+        </li>
+              <a href="studentLogin.jsp"><button id="navbtn1" class="btn1">Student Login</button></a>
+			  <a href="loginAdmin.jsp"><button id="navbtn2" class="btn1">Admin</button></a>   
+      </ul>
+    </div>
+  </div>
+</nav>
+ <div class="navfix"></div>
+ 	
+ <div class="navbreak" >
+  </div>
+ 
+ <center>
+	<hr>
+	<h1>Academic Resourses</h1>
+	<hr>
+</center>
+<br>
+<center>
+	<section id="mainCard">
+	<a href="studentLogin.jsp">
+		<div class="cardd">
+			<i class="fa-solid fa-eye" style="color:#DC143C;font-size: 28px;"></i>
+			<br>
+			<h5>Aptitude</h5>
+			<br>
+			<p>Improve your mathematical skill. Increase your accuracy and enhance your problem solving acumen.</p>
+		</div>
+	</a>
+	
+		<div class="cardd">
+			<a href="studentLogin.jsp"><i class="fa-regular fa-gem" style="color:#DC143C;font-size: 28px;"></i></a>
+			<br>
+			<a href="studentLogin.jsp"><h5>Verbal Reasoning</h5></a>
+			<br>
+			<a href="studentLogin.jsp"><p>Put on your thinking cap and showcase your skill in these challenging verbal questions.</p></a>
+		</div>
+		
+		<div class="cardd">
+			<a href="studentLogin.jsp"><i class="fa-solid fa-circle-half-stroke" style="color:#DC143C;font-size: 28px;"></i></a>
+			<br>
+			<a href="studentLogin.jsp"><h5>Non Verbal Reasoning</h5></a>
+			<br>
+			<a href="studentLogin.jsp"><p>Enhance ability to understand patterns, relationships between different entities.</p></a>
+		</div>
+		<div class="cardd">
+			<a href="studentLogin.jsp"><i class="fa-solid fa-arrow-down-a-z" style="color:#DC143C;font-size: 28px;"></i></a>
+			<br>
+			<a href="studentLogin.jsp"><h5>Verbal Ability</h5></a>
+			<br>
+			<a href="studentLogin.jsp"><p>Enhance ability to use grammar, understand word meanings & interpret written information.</p></a>
+		</div>
+		<div class="cardd">
+			<a href="studentLogin.jsp"><i class="fa-solid fa-code" style="color:#DC143C;font-size: 28px;"></i></a>
+			<br>
+			<a href="studentLogin.jsp"><h5>Programming</h5></a>
+			<br>
+			<a href="studentLogin.jsp"><p>Improve your programming skill with the largest and most exhaustive set of interview questions.</p></a>
+		</div>
+		<div class="cardd">
+			<a href="studentLogin.jsp"><i class="fa-solid fa-book" style="color:#DC143C;font-size: 28px;"></i></a>
+			<br>
+			<a href="studentLogin.jsp"><h5>General Knowledge</h5></a>
+			<br>
+			<a href="studentLogin.jsp"><p>Comprehensive collection of GK questions appearing in major examinations and placement tests..</p></a>
+		</div>
+		<div class="cardd">
+			<a href="studentLogin.jsp"><i class="fa-solid fa-chart-line" style="color:#DC143C;font-size: 28px;"></i></a>
+			<br>
+			<a href="studentLogin.jsp"><h5>Sports</h5></a>
+			<br>
+			<a href="studentLogin.jsp"><p>Analyze numerical charts, tables and graphs etc., with the objective to gain useful information from it.</p></a>
+		</div>
+		<div class="cardd">
+			<a href="studentLogin.jsp"><i class="fa-solid fa-puzzle-piece" style="color:#DC143C;font-size: 28px;"></i></a>
+			<br>
+			<a href="studentLogin.jsp"><h5>Puzzle</h5></a>
+			<br>
+			<a href="studentLogin.jsp"><p>Learn and discover the exciting ways to solve frequently appearing puzzles in placement interviews.</p></a>
+		</div>
+	</section>
+	</center>
+	
+<center>
+	<footer>
+		<section class="sec1">
+			<div class="foot1">
+				<br>
+				<i style="color:#DC143C; font-size:50px;" id="logo1" class="fa-solid fa-user"></i>
+				<br>
+				<h2>125022</h2>
+			<h4>Happy User</h4>
+				
+			</div>
+				<div class="foot1">
+				<i style="color:#DC143C; font-size:50px;" id="logo2" class="fa-solid fa-question"></i>
+				<br>
+				<h2>168307</h2>
+				<h4>Questions</h4>
+				
+			</div>
+			<div class="foot1">
+				<i style="color:#DC143C; font-size:50px;" id="logo3"  class="fa-solid fa-book"></i>
+				<br>
+			<h2>793</h2>
+			<h4>Academic Tutorials</h4>
+				
+			</div>
+			<div class="foot1">
+			<i style="color:#DC143C; font-size:50px;" id="logo4" class="fa-brands fa-youtube"></i>
+			<br>
+			<h2>315</h2>
+			<h4>Video Tutorials</h4>
+			</div>
+     </section>
+		
+		<section class="sec2">
+			<div class="foot2">
+				<h2>STUDY ZONE</h2>
+				<br>
+				<p>Data Interpretation</p>
+				<p>Verbal Reasoning</p>
+				<p>Non Verbal Reasoning</p>
+				<p>Verbal Ability</p>
+				<p>Programming</p>
+				<p>Puzzle</p>
+			</div>
+			<div class="foot2">
+				<h2>ENGINEERING</h2>
+				<br>
+				<p>Computer Engineering</p>
+				<p>Electronics and Communication</p>
+				<p>Electrical Engineering</p>
+				<p>Civil Engineering</p>
+				<p>Biotechnology</p>
+				<p>Architecture & Planning</p>
+			</div>
+			<div class="foot2">
+				<h2>EXAMS</h2>
+				
+			</div>
+			<div class="foot2">
+				<h2>ONLINE TEST</h2>
+				<br>
+				<p>Aptitude Test</p>
+				<p>Data Interpretation Test</p>
+				<p>Verbal Reasoning Test</p>
+				<p>Non Verbal Reasoning Test</p>
+				<p>Verbal Ability Test</p>
+			</div>
+		</section>
+	</footer>
+</center>
+
+
+<center>
+	<section class="sec3">
+			<div class="foot3">
+				<h2>USEFUL LINK</h2>
+				<br>
+				<p>Full Forms</p>
+				<p>Recent Articles</p>
+			</div>
+			<div class="foot3">
+				<h2>OTHER LINKS</h2>
+				<br>
+				<p>About Us</p>
+				<p>Contact Us</p>
+				<p>Privacy Policy</p>
+				<p>Terms Of Use</p>
+				<p>Copyright Policy</p>
+			</div>
+			<div class="foot3" id="foot3id">
+				<div id="logofoot3id">
+					<div id="logo">
+						<i class="fa-brands fa-twitter" style="color:#DC143C; font-size:90px;" ></i> 
+					</div>
+					<div id="logoname">
+						<h1 class="h11">QuizGenix</h1>
+						<p style="font-size: 23px;color: white;">Making Competation Easy</p>
+					</div>
+				</div>
+				<div class="footdiv">
+					<p>Interviewmania is the world's largest collection of interview and aptitude questions and provides a comprehensive guide to students appearing for placements in India's most coveted companies.</p>
+				</div>
+			</div>		
+	</section>
+</center>
+<div id="foot4">
+	<center>
+		<i class="fa-brands fa-facebook" style="font-size: 48px; padding-bottom: 20px;"></i>
+		<p>Copyright 2024 Tata Consultandcy Service.com - All rights reserved.</p>
+	</center>
+ </div>
+</body>
+</html>
